@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/chatmob1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title>Chat</title>
+</head>
+<body>
+    <div class="foundation">
+        <!-- section main right -->
+        <main>
+            <!-- right-head -->
+            <div class="right-head">
+                <div class="title-head">
+                    <h2>Barcha-Psihologlarga</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quia accusantium dolor beatae.</p>
+                </div>                
+                <div class="select-head">
+                    <i class="bi bi-three-dots-vertical"></i>
+                </div>
+
+                <div class="settings">
+                    <h3>Barcha-Psihologlarga</h3>
+                    <p><span>Asosiy savol:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quo.</p>
+                    <div class="set-main">
+                        <div class="item">
+                            Ishtirokchilar soni: <span>125</span>
+                        </div>
+                        <div class="item">
+                            Xabarlar soni: <span>11 550</span>
+                        </div>
+                        <div class="item">
+                            Suxbatni tugatish
+                        </div>
+                        <div class="item">
+                            Suxbatni o`chirish
+                        </div>
+                        <div class="item">
+                            Suxbatni tarqatish
+                        </div>
+                        <div class="item">
+                            Elon qilish
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- right-main -->
+            <div class="right-main">
+                <!-- this for doktors -->
+                <div class="doktor">
+                    <div class="card1"> 
+                        <div class="card1-left">
+                            <img src="img/img8.png" alt="">
+                        </div>
+                        <div class="card1-right">
+                            <p class="c1-right-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto repellendus atque doloribus harum soluta reiciendis vel temporibus recusandae earum. Officia ratione magni tempore excepturi maiores voluptas</p>
+                            <div class="c1-time">
+                                <h6> <span>Today</span> <span>09:43</span></h6>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <!-- this for doktors -->
+                <div class="doktor">
+                    <div class="card1"> 
+                        <div class="card1-left">
+                            <img src="img/img8.png" alt="">
+                        </div>
+                        <div class="card1-right">
+                            <p class="c1-right-p">Lorem ipsum dolor sit amet reiciendis magni tempore excepturi maiores voluptas</p>
+                            <div class="c1-time">
+                                <h6> <span>Today</span> <span>09:43</span></h6>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <!-- this is for users or ills -->
+                <div class="sickness">
+                    <div class="card2">
+                        <p class="c2-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita  doloremque at recusandae quidem iure accusantium voluptatem ipsa sit aut? Quaerat, laudantium? Omnis quis porro exercitationem nemo quas.</p>
+                        <div class="c2-time">
+                            <h6> <span>Today</span> <span>09:43</span></h6>
+                        </div>
+                    </div>
+                </div>
+                <!-- data-block -->
+                <div class="data-block">
+                    <div class="data">
+                        <span>2022 June 26</span>
+                    </div>
+                </div>
+                <!-- this is for users or ills -->
+                <div class="sickness">
+                    <div class="card2">
+                        <p class="c2-p">Lorem ipsum dolor  at recusa ptatem ipsa sit aut? Quaerat, laudantium? Omnis quis porro exercitationem nemo quas.</p>
+                        <div class="c2-time">
+                            <h6> <span>Today</span> <span>09:43</span></h6>
+                        </div>
+                    </div>
+                </div>
+                <!-- this for doktors -->
+                <div class="doktor">
+                    <div class="card1"> 
+                        <div class="card1-left">
+                            <img src="img/img8.png" alt="">
+                        </div>
+                        <div class="card1-right">
+                            <p class="c1-right-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto repellendus atque doloribus harum soluta reiciendis vel temporibus recusandae earum. Officia ratione magni tempore excepturi maiores voluptas</p>
+                            <div class="c1-time">
+                                <h6> <span>Today</span> <span>09:43</span></h6>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="doktor">
+                    <div class="card1"> 
+                        <div class="card1-left">
+                            <img src="img/img8.png" alt="">
+                        </div>
+                        <div class="card1-right">
+                            <p class="c1-right-p">Lorem ipsum </p>
+                            <div class="c1-time">
+                                <h6> <span>Today</span> <span>09:43</span></h6>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <!-- right-foot -->
+            <div class="right-foot">
+                <input type="text" placeholder="Write message...">
+                <i class="bi bi-send"></i>
+            </div>
+
+        </main>
+    </div>
+
+
+    <script>
+        const item4 = document.querySelector('.bi-three-dots-vertical')
+        const item5 = document.querySelector('.settings')
+        const item3 = document.querySelector('.foundation')
+
+        item4.addEventListener('click', function activatsiya(){
+            item5.classList.toggle('ongdan')
+            item3.classList.toggle('opacity')
+        })
+    </script>
+</body>
+</html>

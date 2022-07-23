@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+// section units
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+}
+
+.foundation{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #FAFAFA;
+    main{
+        width: 100%;
+        height: 100%;
+        background-color: #F8F7FC;
+        // right-head
+        .right-head{    
+            width: 100%;
+            height: 120px;
+            background-color: #fff;
+            border: 1px solid black;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            .reight-head-img{
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                margin-left: 5px;
+            }
+            .reight-head-main{
+                width: 85%;
+                height: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                .reight-hm-title{
+                    width: 100%;
+                    height: 35%;
+                    display: flex;
+                    align-items: end;
+                    justify-content: center;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 30px;
+                    letter-spacing: 0.1em;
+                }
+                .reight-hm-subtitle{
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 24px;
+                    letter-spacing: 0.1em;
+                    color: rgba(0, 0, 0, 0.5);
+                    span{
+                        color: #000;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+        // right-main
+        .right-main{
+            width: 100%;
+            height: calc(100% - 120px);
+            margin: 6px 0;
+            overflow: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            &::-webkit-scrollbar{
+                display: none;
+                }
+            // right-foot
+            .right-main-foot{
+                width: 96%;
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                .right-foot-title{
+                    width: 100%;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 22px;
+                    margin-right: 3%;
+                    padding: 10px 0;
+                }
+                .right-foot-selects{
+                    width: 100%;
+                    margin-right: 3%;
+                    background: #FFFFFF;
+                    border-radius: 5px;
+                    padding: 7px 0;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: rgba(0, 0, 0, 0.5);
+                    border: none;
+                    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+                }
+                .right-foot-input{
+                    width: 97%;
+                    background: #FFFFFF;
+                    border-radius: 5px;
+                    padding: 7px 5px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: rgba(0, 0, 0, 0.5);
+                    border: none;
+                    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+                }
+                .rf-button{
+                    margin-top: 20px;
+                    width: 97%;
+                    height: 35px;
+                    background-color: #fff;
+                    color: #878ECD;
+                    font-size: 20px;
+                    border: none;
+                    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 5px;
+                }
+                .rf-button:active{
+                    transition: all 400ms ease;
+                    transform: scale(1.05);
+                }
+            }
+            .right-main-card{
+                width: 98%;
+                height: 150px;
+                margin: 15px 0;
+                background: #FFFFFF;
+                border-radius: 10px;
+                display: flex;
+                flex-wrap: wrap;
+                border: 1px solid black;
+                .main-tab-name{
+                    width: 100%;
+                    height: 38%;
+                    display: flex;
+                    align-items: center;
+                    h1{
+                        width: 45px;
+                        height: 45px;
+                        font-weight: 700;
+                        font-size: 25px;
+                        letter-spacing: 0.1em;
+                        color: #878ECD;
+                        background-color: #F7F1FE;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 10px;
+                        margin: 0 20px 0 10px;
+                    }
+                    .rmcr-h-n1{
+                        width: 80%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 24px;
+                        letter-spacing: 0.05em;
+                        span{
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 18px;
+                            letter-spacing: 0.05em;
+                            color: rgba(0, 0, 0, 0.5);
+                        }
+                    }
+                }
+                .rmcr-h-n2, .rmcr-h-n3{
+                    width: 100%;
+                    height: 30px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    letter-spacing: 0.05em;
+                    padding-left: 15px;
+
+                    &::-webkit-scrollbar{
+                        display: none;
+                    }
+                    span{
+                        border-radius: 8px;
+                        font-size: 16px;
+                        padding: 5px 10px;
+                        margin: 0 5px;
+                    }
+                    .stil1{
+                        background: #EFEDFA;
+                        color: #878ECD;
+                    }
+                    .stil2{
+                        background: #FFF2C7;
+                        color:  #FFC400;
+                    }
+                    .stil3{
+                        background: rgba(199, 255, 216, 0.42);
+                        color: #00FFAA;
+                    }
+                }
+                .rmcr-h-n3{
+                    .styl1{
+                        color: #878ECD;
+                    }
+                    .styl2{
+                        color:  #FFC400;
+                    }
+                    .styl3{
+                        color: #00FFAA;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+
+@media screen and (max-width: 470px) {
+    .foundation{
+        main{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+           // right-head
+            .right-head{ 
+                width: 98%;
+                .reight-head-img{
+                    width: 70px;
+                    height: 70px;
+                }
+                .reight-head-main{
+                    .reight-hm-title{
+                        font-size: 20px;
+                    }
+                    .reight-hm-subtitle{
+                        font-size: 15px;
+                    }
+                }
+            }
+            // right-main
+            .right-main{
+                .right-main-card{
+                    height: 150px;
+                    .rmcr-h-n2, .rmcr-h-n3{
+                        font-size: 15px;
+                        height: 30px;
+                        overflow: hidden;
+                        span{
+                            font-size: 14px;
+                            margin:0 ;
+                        }
+                    }
+                }
+            }
+        }
+    }   
+}

@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Ubuntu", "sans-serif";
+}
+
+.opacity {
+  opacity: 0.8;
+}
+
+.foundation {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #FAFAFA;
+}
+.foundation main {
+  width: 100%;
+  height: 100%;
+  background-color: #F8F7FC;
+}
+.foundation main .right-head {
+  margin-left: 2%;
+  width: 96%;
+  height: 14vh;
+  margin-top: 2px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.foundation main .right-head .title-head {
+  width: 85%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
+}
+.foundation main .right-head .title-head h2 {
+  width: 100%;
+  margin-left: 20px;
+  overflow: hidden;
+}
+.foundation main .right-head .title-head p {
+  overflow: hidden;
+  width: 100%;
+  margin-left: 20px;
+}
+.foundation main .right-head .select-head {
+  margin-left: 10%;
+  width: 5%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 25px;
+}
+.foundation main .right-head .select-head i:active {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.foundation main .right-head .settings {
+  -webkit-transition: all 450ms ease;
+  transition: all 450ms ease;
+  max-width: 350px;
+  position: fixed;
+  width: 65%;
+  right: 5%;
+  height: auto;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 10px;
+  top: -90vh;
+}
+.foundation main .right-head .settings h3 {
+  width: 100%;
+  font-size: 22px;
+  padding: 10px 0 10px 10px;
+}
+.foundation main .right-head .settings p {
+  width: 100%;
+  height: auto;
+  padding: 7px 0 7px 10px;
+}
+.foundation main .right-head .settings p span {
+  font-weight: 800;
+}
+.foundation main .right-head .settings .set-main {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5px 0;
+}
+.foundation main .right-head .settings .set-main .item {
+  width: 90%;
+  text-align: center;
+  font-size: 17px;
+  padding: 7px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px 0;
+}
+.foundation main .right-head .ongdan {
+  top: 10vh;
+}
+.foundation main .right-main {
+  width: 96%;
+  height: calc(84vh - 55px);
+  margin: 6px 0 5px 2%;
+  overflow-y: auto;
+}
+.foundation main .right-main::-webkit-scrollbar {
+  display: none;
+}
+.foundation main .right-main .doktor {
+  width: 100%;
+  height: auto;
+}
+.foundation main .right-main .doktor .card1 {
+  width: auto;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+.foundation main .right-main .doktor .card1 .card1-left {
+  width: 50px;
+  height: auto;
+}
+.foundation main .right-main .doktor .card1 .card1-left img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.foundation main .right-main .doktor .card1 .card1-right {
+  max-width: 85%;
+  min-width: 150px;
+  width: auto;
+  height: auto;
+  background: #ECEAF5;
+  border-radius: 0px 20px 20px 20px;
+}
+.foundation main .right-main .doktor .card1 .card1-right .c1-right-p {
+  padding: 10px 10px 5px 10px;
+  color: rgba(0, 0, 0, 0.8);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.4px;
+}
+.foundation main .right-main .doktor .card1 .card1-right .c1-time {
+  text-align: end;
+  width: 100%;
+  height: 20px;
+}
+.foundation main .right-main .doktor .card1 .card1-right .c1-time h6 {
+  padding-right: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.foundation main .right-main .doktor .card1 .card1-right .c1-time h6 span {
+  font-size: 11px;
+  font-weight: 500;
+}
+.foundation main .right-main .sickness {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  width: 100%;
+  height: auto;
+}
+.foundation main .right-main .sickness .card2 {
+  margin-top: 10px;
+  margin-bottom: 2px;
+  min-width: 140px;
+  max-width: 88%;
+  height: auto;
+  background: #9ca3e1;
+  border-radius: 20px 20px 0px 20px;
+}
+.foundation main .right-main .sickness .card2 .c2-p {
+  padding: 10px 10px 5px 10px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.4px;
+}
+.foundation main .right-main .sickness .card2 .c2-time {
+  text-align: end;
+  width: 100%;
+  height: 20px;
+}
+.foundation main .right-main .sickness .card2 .c2-time h6 {
+  padding-right: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.foundation main .right-main .sickness .card2 .c2-time h6 span {
+  font-size: 11px;
+  font-weight: 500;
+}
+.foundation main .right-main .data-block {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 0;
+}
+.foundation main .right-main .data-block .data {
+  margin: 5px;
+  width: 120px;
+  height: 20px;
+  background: rgba(178, 180, 205, 0.29);
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.foundation main .right-main .data-block .data span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #000000;
+}
+.foundation main .right-foot {
+  width: 100%;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.foundation main .right-foot input {
+  width: 98%;
+  height: 100%;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: 18px;
+  padding-left: 10px;
+  margin-left: 1%;
+}
+.foundation main .right-foot i {
+  font-size: 22px;
+  margin-left: -40px;
+  color: black;
+}
+.foundation main .right-foot i:active {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: blue;
+}
+
+@media screen and (max-width: 500px) {
+  .foundation main .right-head .select-head {
+    margin-left: 5%;
+    width: 10%;
+  }
+  .foundation main .right-head .settings {
+    width: 65%;
+    right: -65%;
+    top: 10vh;
+  }
+  .foundation main .right-head .settings h3 {
+    width: 100%;
+    font-size: 18px;
+  }
+  .foundation main .right-head .ongdan {
+    right: 5%;
+  }
+}

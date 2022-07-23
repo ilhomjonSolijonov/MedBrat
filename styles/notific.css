@@ -1,0 +1,740 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Ubuntu", "sans-serif";
+}
+
+.dropnav-left {
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 0;
+  left: -20%;
+  z-index: 4;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background: #e2e1e3;
+  border-radius: 0px 20px 20px 0px;
+  -webkit-box-shadow: 1px 1px 4px rgba(212, 208, 208, 0.25);
+          box-shadow: 1px 1px 4px rgba(212, 208, 208, 0.25);
+}
+.dropnav-left .dn-left-main {
+  width: 100%;
+  height: auto;
+}
+.dropnav-left .dn-left-main a {
+  text-decoration: none;
+  color: #000;
+}
+.dropnav-left .dn-left-main a h2 {
+  width: 100%;
+  height: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.dropnav-left .dn-left-main a h2 i {
+  -webkit-box-shadow: -1px -1px 4px rgba(203, 203, 203, 0.25), 1px 1px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: -1px -1px 4px rgba(203, 203, 203, 0.25), 1px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background: #878ECD;
+  padding: 10px;
+  margin: 0 20px;
+  color: #fff;
+}
+.dropnav-left .dn-left-btn {
+  -webkit-box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.25);
+          box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.25);
+  width: 60px;
+  height: 60px;
+  margin-left: 93%;
+  position: absolute;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: #e2e1e3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.dropnav-left .dn-left-btn .dropleft {
+  margin-left: 10px;
+}
+
+.aylan1 {
+  left: 0;
+}
+
+.aylan2 {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.aylan3 {
+  top: -10vh;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.foundation {
+  font-family: "Ubuntu" "sans-serif";
+  background-color: #F8F7FC;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.foundation .menu-container {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  z-index: 5;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+}
+.foundation .menu-container menu {
+  max-width: 1550px;
+  width: 94%;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.foundation .menu-container menu .logo {
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.foundation .menu-container menu .logo .logo-img {
+  width: auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+}
+.foundation .menu-container menu .logo .logo-img img {
+  width: auto;
+  height: 5vh;
+}
+.foundation .menu-container menu .logo h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.foundation .menu-container menu .logo h2 span {
+  color: aqua;
+}
+.foundation .menu-container menu .menu-text {
+  width: 60%;
+  height: 100%;
+}
+.foundation .menu-container menu .menu-text ul {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.foundation .menu-container menu .menu-text ul li {
+  list-style: none;
+}
+.foundation .menu-container menu .menu-text ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.foundation .menu-container menu .menu-text ul .och1 {
+  display: none;
+}
+.foundation .menu-container menu .login {
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+.foundation .menu-container menu .login button {
+  padding: 6px 30px;
+  border-radius: 6px;
+  border: none;
+  font-size: 17px;
+  background-color: #878ECD;
+  color: #fff;
+}
+.foundation .menu-container menu .login button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+.foundation .menu-container menu .mobile-btn {
+  display: none;
+}
+.foundation .main-title {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 61px;
+  color: #878ECD;
+}
+.foundation main {
+  width: 94%;
+  height: auto;
+  max-width: 1550px;
+}
+.foundation main::-webkit-scrollbar {
+  display: none;
+}
+.foundation main .card {
+  width: 100%;
+  height: 77px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0;
+}
+.foundation main .card .card-start {
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.foundation main .card .card-start .cs-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.foundation main .card .card-start .cs-title {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 22px;
+  color: #000000;
+}
+.foundation main .card .card-start .cs-time {
+  display: none;
+}
+.foundation main .card .card-center {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.foundation main .card .card-center p {
+  min-width: 370px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #0019FF;
+  padding: 5px 25px;
+  background: #F7F1FE;
+  border-radius: 5px;
+}
+.foundation main .card .card-center p span {
+  color: #000;
+  padding: 5px 0px 5px 30px;
+}
+.foundation main .card .card-end {
+  width: 20%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.foundation main .card .card-end a button {
+  background: #F7F1FE;
+  border-radius: 3px;
+  padding: 5px 20px;
+  border: none;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #878ECD;
+}
+.foundation main .data-block {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.foundation main .data-block .data {
+  margin: 5px;
+  width: 120px;
+  height: 20px;
+  background: rgba(178, 180, 205, 0.29);
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.foundation main .data-block .data span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #000000;
+}
+.foundation footer {
+  width: 100%;
+  height: auto;
+  background-color: #454545;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+}
+.foundation footer .footer-container {
+  width: 90%;
+  max-width: 1550px;
+  height: auto;
+}
+.foundation footer .footer-container .logo {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.foundation footer .footer-container .logo .logo-img {
+  width: auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+}
+.foundation footer .footer-container .logo .logo-img img {
+  width: auto;
+  height: 6vh;
+}
+.foundation footer .footer-container .logo h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.foundation footer .footer-container .logo h2 span {
+  color: aqua;
+  font-weight: 300;
+}
+.foundation footer .footer-container .foot-navigation {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0;
+}
+.foundation footer .footer-container .foot-navigation .foot-nav-item {
+  width: 25%;
+  height: auto;
+}
+.foundation footer .footer-container .foot-navigation .foot-nav-item h2 {
+  width: 100%;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 22px;
+}
+.foundation footer .footer-container .foot-navigation .foot-nav-item a {
+  text-decoration: none;
+}
+.foundation footer .footer-container .foot-navigation .foot-nav-item a h3 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.foundation footer .footer-container .foot-navigation .foot-nav-item .social-nets {
+  margin-top: 30%;
+  width: 70%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.foundation footer .footer-container .foot-navigation .foot-nav-item .social-nets a i {
+  font-size: 22px;
+}
+.foundation footer .footer-container .foot-navigation .foot-nav-item .social-nets a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+@media screen and (max-width: 992px) {
+  .dropnav-left {
+    width: 100vw;
+    height: 71px;
+    position: fixed;
+    display: block;
+    left: 0;
+    background-color: #F7F1FE;
+    top: calc(100vh - 71px);
+    border-radius: 10px 10px 0px 0px;
+    -webkit-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .dropnav-left .dn-left-main {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .dropnav-left .dn-left-main a {
+    width: 50px;
+    height: 100%;
+    margin: 30px;
+  }
+  .dropnav-left .dn-left-main a h2 i {
+    margin: 0;
+  }
+  .dropnav-left .dn-left-main a h2 span {
+    display: none;
+  }
+  .dropnav-left .dn-left-btn {
+    display: none;
+  }
+
+  .foundation .menu-container {
+    width: 100%;
+  }
+  .foundation .menu-container menu {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #F8F7FC;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .foundation .menu-container menu .logo {
+    margin-left: 10px;
+    width: 50%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .foundation .menu-container menu .logo .logo-img {
+    width: auto;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 10px;
+  }
+  .foundation .menu-container menu .logo .logo-img img {
+    width: auto;
+    height: 40%;
+  }
+  .foundation .menu-container menu .logo h2 {
+    font-size: 27px;
+    font-weight: 500;
+  }
+  .foundation .menu-container menu .logo h2 span {
+    color: aqua;
+  }
+  .foundation .menu-container menu .menu-text {
+    -webkit-transition: all 400ms ease;
+    transition: all 400ms ease;
+    top: 0;
+    left: -80%;
+    width: 80%;
+    height: 100vh;
+    position: absolute;
+    z-index: 10;
+    background-color: #e7e7ef;
+  }
+  .foundation .menu-container menu .menu-text ul {
+    height: 70%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .foundation .menu-container menu .menu-text ul li {
+    width: 70%;
+    height: auto;
+    border-radius: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid black;
+    background-color: #fff;
+  }
+  .foundation .menu-container menu .menu-text ul li a {
+    padding: 10px 0;
+    font-size: 26px;
+    color: #0B0B2F;
+  }
+  .foundation .menu-container menu .menu-text ul .och1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .foundation .menu-container menu .menu-text ul .inter {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .foundation .menu-container menu .menu-text ul .inter a {
+    text-decoration: none;
+    color: #878ECD;
+    padding: 10px 20px;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #0B0B2F;
+    font-size: 20px;
+  }
+  .foundation .menu-container menu .active2 {
+    left: 0%;
+  }
+  .foundation .menu-container menu .login {
+    display: none;
+  }
+  .foundation .menu-container menu .mobile-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #878ECD;
+    margin-right: 15px;
+  }
+  .foundation .menu-container menu .mobile-btn i {
+    color: white;
+    font-size: 30px;
+  }
+  .foundation .main-title {
+    font-size: 35px;
+  }
+  .foundation main {
+    margin-bottom: 71px;
+  }
+  .foundation main .card {
+    width: 100%;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 60px 0;
+  }
+  .foundation main .card .card-start {
+    width: 100%;
+    height: 50%;
+    min-height: 50px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .foundation main .card .card-start .cs-img {
+    width: 40px;
+    height: 40px;
+  }
+  .foundation main .card .card-start .cs-title {
+    font-size: 19px;
+  }
+  .foundation main .card .card-start .cs-time {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .foundation main .card .card-center {
+    width: 100%;
+    height: 50%;
+    min-height: 50px;
+  }
+  .foundation main .card .card-center p {
+    padding: 5px;
+    min-width: 450px;
+  }
+  .foundation main .card .card-center p span {
+    display: none;
+  }
+  .foundation main .card .card-end {
+    width: 100%;
+    height: 50px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .foundation main .card .card-end a button {
+    padding: 7px 20px;
+  }
+  .foundation footer {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .foundation .menu-container menu .logo .logo-img img {
+    width: auto;
+    height: 35%;
+  }
+  .foundation .menu-container menu .logo h2 {
+    font-size: 23px;
+  }
+  .foundation .menu-container menu .menu-text {
+    left: -85%;
+    width: 85%;
+  }
+  .foundation .menu-container menu .active2 {
+    left: 0%;
+  }
+  .foundation .menu-container menu .mobile-btn {
+    width: 45px;
+    height: 45px;
+  }
+  .foundation .menu-container menu .mobile-btn i {
+    font-size: 25px;
+  }
+  .foundation main .card .card-center p {
+    min-width: 310px;
+  }
+}

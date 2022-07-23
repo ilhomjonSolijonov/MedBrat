@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Ubuntu";
+}
+
+.foundation {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #FAFAFA;
+}
+.foundation main {
+  width: 100%;
+  height: 100%;
+  background-color: #F8F7FC;
+}
+.foundation main .right-head {
+  width: 100%;
+  height: 120px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.foundation main .right-head .reight-head-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.foundation main .right-head .reight-head-main {
+  width: 85%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.foundation main .right-head .reight-head-main .reight-hm-title {
+  width: 100%;
+  height: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+}
+.foundation main .right-head .reight-head-main .reight-hm-subtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  color: rgba(0, 0, 0, 0.5);
+}
+.foundation main .right-head .reight-head-main .reight-hm-subtitle span {
+  color: #000;
+  font-weight: 500;
+}
+.foundation main .right-main {
+  width: 100%;
+  height: calc(100% - 120px);
+  margin: 6px 0;
+  overflow: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.foundation main .right-main::-webkit-scrollbar {
+  display: none;
+}
+.foundation main .right-main .right-main-foot {
+  width: 96%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.foundation main .right-main .right-main-foot .right-foot-title {
+  width: 100%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin-right: 3%;
+  padding: 10px 0;
+}
+.foundation main .right-main .right-main-foot .right-foot-selects {
+  width: 100%;
+  margin-right: 3%;
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 7px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.5);
+  border: none;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.foundation main .right-main .right-main-foot .right-foot-input {
+  width: 97%;
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 7px 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.5);
+  border: none;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.foundation main .right-main .right-main-foot .rf-button {
+  margin-top: 20px;
+  width: 97%;
+  height: 35px;
+  background-color: #fff;
+  color: #878ECD;
+  font-size: 20px;
+  border: none;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.foundation main .right-main .right-main-foot .rf-button:active {
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+.foundation main .right-main .right-main-card {
+  width: 98%;
+  height: 150px;
+  margin: 15px 0;
+  background: #FFFFFF;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border: 1px solid black;
+}
+.foundation main .right-main .right-main-card .main-tab-name {
+  width: 100%;
+  height: 38%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.foundation main .right-main .right-main-card .main-tab-name h1 {
+  width: 45px;
+  height: 45px;
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: 0.1em;
+  color: #878ECD;
+  background-color: #F7F1FE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  margin: 0 20px 0 10px;
+}
+.foundation main .right-main .right-main-card .main-tab-name .rmcr-h-n1 {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+}
+.foundation main .right-main .right-main-card .main-tab-name .rmcr-h-n1 span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  color: rgba(0, 0, 0, 0.5);
+}
+.foundation main .right-main .right-main-card .rmcr-h-n2, .foundation main .right-main .right-main-card .rmcr-h-n3 {
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  padding-left: 15px;
+}
+.foundation main .right-main .right-main-card .rmcr-h-n2::-webkit-scrollbar, .foundation main .right-main .right-main-card .rmcr-h-n3::-webkit-scrollbar {
+  display: none;
+}
+.foundation main .right-main .right-main-card .rmcr-h-n2 span, .foundation main .right-main .right-main-card .rmcr-h-n3 span {
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+.foundation main .right-main .right-main-card .rmcr-h-n2 .stil1, .foundation main .right-main .right-main-card .rmcr-h-n3 .stil1 {
+  background: #EFEDFA;
+  color: #878ECD;
+}
+.foundation main .right-main .right-main-card .rmcr-h-n2 .stil2, .foundation main .right-main .right-main-card .rmcr-h-n3 .stil2 {
+  background: #FFF2C7;
+  color: #FFC400;
+}
+.foundation main .right-main .right-main-card .rmcr-h-n2 .stil3, .foundation main .right-main .right-main-card .rmcr-h-n3 .stil3 {
+  background: rgba(199, 255, 216, 0.42);
+  color: #00FFAA;
+}
+.foundation main .right-main .right-main-card .rmcr-h-n3 .styl1 {
+  color: #878ECD;
+}
+.foundation main .right-main .right-main-card .rmcr-h-n3 .styl2 {
+  color: #FFC400;
+}
+.foundation main .right-main .right-main-card .rmcr-h-n3 .styl3 {
+  color: #00FFAA;
+}
+
+@media screen and (max-width: 470px) {
+  .foundation main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .foundation main .right-head {
+    width: 98%;
+  }
+  .foundation main .right-head .reight-head-img {
+    width: 70px;
+    height: 70px;
+  }
+  .foundation main .right-head .reight-head-main .reight-hm-title {
+    font-size: 20px;
+  }
+  .foundation main .right-head .reight-head-main .reight-hm-subtitle {
+    font-size: 15px;
+  }
+  .foundation main .right-main .right-main-card {
+    height: 150px;
+  }
+  .foundation main .right-main .right-main-card .rmcr-h-n2, .foundation main .right-main .right-main-card .rmcr-h-n3 {
+    font-size: 15px;
+    height: 30px;
+    overflow: hidden;
+  }
+  .foundation main .right-main .right-main-card .rmcr-h-n2 span, .foundation main .right-main .right-main-card .rmcr-h-n3 span {
+    font-size: 14px;
+    margin: 0;
+  }
+}
