@@ -415,6 +415,34 @@
   letter-spacing: 0.15em;
   color: #000000;
 }
+.foundation .container .main .main-left .users a .new-chat {
+  margin-left: 20vw;
+  margin-top: 22vh;
+  position: fixed;
+  top: 70vh;
+  width: 120px;
+  height: 50px;
+  background: #878ECD;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.foundation .container .main .main-left .users a .new-chat h3 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+}
+.foundation .container .main .main-left .users a .new-chat:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
 .foundation .container .main .main-right {
   width: 67%;
   height: 100%;
